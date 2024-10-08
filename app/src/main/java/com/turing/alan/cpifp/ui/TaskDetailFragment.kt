@@ -35,7 +35,5 @@ class TaskDetailFragment : Fragment() {
         val taskId = args.taskId
         val task = repository.readOne(taskId)
         binding.taskBody.text = task.body
-
-
     }
 }

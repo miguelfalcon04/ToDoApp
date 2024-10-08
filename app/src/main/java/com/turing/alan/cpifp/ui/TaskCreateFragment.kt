@@ -39,5 +39,4 @@ class TaskCreateFragment : Fragment() {
         }
     }
 
-
 }
