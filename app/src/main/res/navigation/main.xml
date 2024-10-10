@@ -16,10 +16,12 @@
             android:id="@+id/action_taskListFragment_to_taskDetailFragment"
             app:destination="@id/taskDetailFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/taskCreateFragment"
         android:name="com.turing.alan.cpifp.ui.TaskCreateFragment"
         android:label="TaskCreateFragment" />
+
     <fragment
         android:id="@+id/taskDetailFragment"
         android:name="com.turing.alan.cpifp.ui.TaskDetailFragment"
